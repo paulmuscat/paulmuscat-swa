@@ -32,3 +32,16 @@ p {
     margin: 0;
   }
   
+.tagline {
+    font-size: 2em;
+    padding-top: 0em;
+    padding-bottom: 2.5em;
+    text-shadow: 0.2em 0.2em 0.2em #3c2c1c;
+  }  
+
+.main {
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    }
+      
