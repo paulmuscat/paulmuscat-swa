@@ -20,7 +20,8 @@ jobs:
           submodules: true
           lfs: false
       - name:  Move built assets to htmlroot  
-        run: cp ./build_assets/index.html ./htmlroot/index.html
+        run: mkdir ./htmlroot
+        run: cp ./build_assets/index.html ./htmlroot
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
