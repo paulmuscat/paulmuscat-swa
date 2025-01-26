@@ -19,8 +19,9 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name:  Move built assets to htmlroot  
+      - name:  create htmlroot
         run: mkdir ./htmlroot
+      - name:  Move built assets to htmlroot  
         run: cp ./build_assets/index.html ./htmlroot
       - name: Build And Deploy
         id: builddeploy
